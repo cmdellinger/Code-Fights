@@ -19,8 +19,7 @@ grid = [['.', '.', '.', '1', '4', '.', '.', '2', '.'],
         ['.', '.', '.', '5', '.', '.', '.', '7', '.']]
 ```
 the output should be:
-
-sudoku2(grid) = true;
+`sudoku2(grid) = true`;
 
 * For
 ```
@@ -35,17 +34,16 @@ grid = [['.', '.', '.', '.', '2', '.', '.', '9', '.'],
         ['.', '2', '.', '.', '3', '.', '.', '.', '.']]
 ```
 the output should be:
-
-sudoku2(grid) = false.
+`sudoku2(grid) = false`.
 
 The given grid is not correct because there are two 1s in the second column. Each column, each row, and each 3 × 3 subgrid can only contain the numbers 1 through 9 one time.
 
 Input/Output
 
-* [time limit] 4000ms (py)
-* [input] array.array.char grid
+***[time limit] 4000ms (py)**
+***[input] array.array.char grid**
 
 A 9 × 9 array of characters, in which each character is either a digit from '1' to '9' or a period '.'.
 
-* [output] boolean
+***[output] boolean**
 Return true if grid represents a valid Sudoku puzzle, otherwise return false.
